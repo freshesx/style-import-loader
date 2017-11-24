@@ -1,9 +1,15 @@
 {
-  "name": "style-import-loader",
+  "name": "@freshes/style-import-loader",
   "version": "0.1.0",
   "description": "Auto import component style for webpack loader",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/freshesx/style-import-loader",
   "author": "Wu Qicheng <qicheng.wu@vitualreaty.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
