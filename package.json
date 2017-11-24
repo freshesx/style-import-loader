@@ -1,6 +1,6 @@
 {
   "name": "@freshes/style-import-loader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Auto import component style for webpack loader",
   "main": "src/index.js",
   "repository": "https://github.com/freshesx/style-import-loader",
