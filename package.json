@@ -1,6 +1,6 @@
 {
   "name": "@freshes/style-import-loader",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Auto import component style for webpack loader",
   "main": "src/index.js",
   "files": [
