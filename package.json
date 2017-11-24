@@ -1,8 +1,11 @@
 {
   "name": "@freshes/style-import-loader",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Auto import component style for webpack loader",
   "main": "src/index.js",
+  "files": [
+    "src"
+  ],
   "repository": "https://github.com/freshesx/style-import-loader",
   "author": "Wu Qicheng <qicheng.wu@vitualreaty.com>",
   "license": "MIT",
