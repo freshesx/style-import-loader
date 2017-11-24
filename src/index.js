@@ -9,7 +9,7 @@ module.exports = source => {
   const pkgReg = new RegExp(`${scopeName}`, 'g')
   const matched = source.match(lineReg)
 
-  if (matched.length > 0) {
+  if (matched && matched.length > 0) {
     matched.forEach(line => {
       const pkg = line.match(pkgReg)[0]
       const style = `import '${pkg}/${styleFile}'`
