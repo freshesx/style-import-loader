@@ -1,7 +1,7 @@
 const path = require('path')
 const utils = require('loader-utils')
 
-module.exports = source => {
+module.exports = function (source) {
   const options = utils.getOptions(this) || {}
   const styleFile = options.style || 'dist/main.css'
   const scopeName = options.scoped || '@humans/[\\w-]+'
